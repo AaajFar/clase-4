@@ -1,14 +1,12 @@
-class Perro {
-    constructor(nombre, dueno, edad, sonido) {
+class Perro extends Animal {
+    constructor(nombre, edad, dueno, sonido) {
+        super();
         this.nombre = nombre;
-        this.dueno = dueno;
         this.edad = edad;
+        this.dueno = dueno;
         this.sonido = sonido;
     }
-    saludar() {
-        console.log(`Hola, me llamo ${this.nombre}, mi dueño es ${this.dueno}`);
-    }
-    sonido() {
-        console.log(`Hago ${this.sonido}`);
+    hablar() {
+        console.log(`Pero no soy cualquier animal, mi nombre es ${this.nombre}, soy un perro y hago ${this.sonido}. Mi dueñ@ es ${this.dueno} y tengo ${this.edad} años`);
     }
 }

@@ -1,15 +1,14 @@
-let myPerson = new Persona('Juan', 'Perez', 23, 1.8);
+/* let myPerson = new Persona('Juan', 'Perez', 23, 1.8);
 
-console.log(myPerson.saludar());
+console.log(myPerson.saludar()); 
+*/
 
-let myAnimal = new Animal('Vaca', 'Larry', 19, 'Muu');
+let myGato = new Gato('Carpo', 5, 'Ariel', 'Miau');
 
-console.log(myAnimal.saludar());
+console.log(myGato.hablar());
+console.log(myGato instanceof Animal);
 
-let myPerro = new Perro('Pipo', 'Carlos', 10, 'Guau Guau');
+let myPerro = new Perro('Wendy', 10, 'Nati', 'Guau');
 
-console.log(myPerro.saludar());
-
-let myGato = new Gato('Carpo', 'Ariel', 5, 'Miau Miau');
-
-console.log(myGato.saludar());
+console.log(myPerro.hablar());
+console.log(myPerro instanceof Animal);
