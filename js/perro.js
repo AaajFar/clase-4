@@ -1,6 +1,5 @@
-class Perro extends Animal {
+export default class Perro {
     constructor(nombre, edad, dueno, sonido) {
-        super();
         this.nombre = nombre;
         this.edad = edad;
         this.dueno = dueno;

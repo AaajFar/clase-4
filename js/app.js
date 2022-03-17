@@ -1,7 +1,11 @@
-/* let myPerson = new Persona('Juan', 'Perez', 23, 1.8);
+let myPerson = new Persona('Juan', 'Perez', 23, 1.8);
 
-console.log(myPerson.saludar()); 
-*/
+console.log(myPerson.saludar());
+
+import Persona from './persona.js';
+import Perro from './perro.js';
+import Gato from './gato.js';
+import Animal from './animal.js';
 
 let myGato = new Gato('Carpo', 5, 'Ariel', 'Miau');
 

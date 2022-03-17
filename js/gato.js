@@ -1,6 +1,5 @@
-class Gato extends Animal {
+export default class Gato {
     constructor(nombre, edad, dueno, sonido) {
-        super();
         this.nombre = nombre;
         this.edad = edad;
         this.dueno = dueno;
